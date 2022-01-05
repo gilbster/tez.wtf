@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+:root {
+  --dark: #1d1c1c;
+  --light: #ffffff;
+  --link: #e61746;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: var(--dark);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Gochi Hand", "Roboto Slab", serif;
+  color: var(--light);
+  overflow-x: hidden;
+}
+
+header {
+  /* font-family: "Fascinate", cursive; */
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--light);
+  text-decoration: underline;
+}
+
+.logo {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 0.5rem;
+}
+
+main {
+  /* width: 100%; */
+  position: relative;
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Gochi Hand", "Roboto Slab", serif;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  /* width: 60%; */
+  margin: auto;
+}
+.artist {
+  padding-bottom: 1rem;
+  /* font-style: italic; */
+  font-size: 1.1rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.artist a {
+  font-size: 1.4rem;
+}
+
+.art {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img {
+  padding: 0;
+  width: 100%;
+  /* border: 6px solid; */
+  /* border-image: url(./border.png) 15 round; */
+}
+
+.OBJKT {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+.OBJKT a {
+  font-size: 1.2rem;
+}
+
+.edition {
+  font-size: 1rem;
+  padding-top: 0.4rem;
+  text-align: justify;
+  width: auto;
+  font-family: "Roboto Slab", Courier, monospace;
+  font-style: italic;
+}
+
+.description {
+  text-align: justify;
+  padding-top: 1rem;
+  width: auto;
+  padding-bottom: 2rem;
+  font-family: "Roboto Slab", Courier, monospace;
+}
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h3 {
+  padding-bottom: 2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+footer {
+  /* padding-top: 1rem; */
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2px;
+  font-style: oblique;
+}
