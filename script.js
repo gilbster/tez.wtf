@@ -3,7 +3,7 @@ console.log(queryString.replace("?", ""));
 let objktID;
 
 if (!queryString) {
-  objktID = 513141;
+  objktID = 618870;
 } else {
   objktID = queryString.replace("?", "");
 }
