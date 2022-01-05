@@ -127,12 +127,24 @@ function showArt(data) {
           </h2>
         </div>
         <div class="art">
-        <img
-//           src="https://ipfs.io/ipfs/${data.display_uri.replace(
-    "ipfs://",
-    ""
-  )}"
-//           alt="${data.title}">
+      <video
+             width="90%"
+             controls
+             playsinline
+             loop
+             poster="https://ipfs.io/ipfs/${data.display_uri.replace(
+               "ipfs:/",
+               ""
+             )}""
+           >
+             <source
+               src="https://ipfs.io/ipfs/${data.artifact_uri.replace(
+                 "ipfs:/",
+                 ""
+               )}"
+             />
+             Your browser does not support the video tag.
+           </video>
          
         </div>
         <div class="OBJKT">
