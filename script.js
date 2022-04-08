@@ -3,7 +3,7 @@ console.log(queryString.replace("?", ""));
 let objktID;
 
 if (!queryString) {
-  objktID = 618870;
+  objktID = 714428;
 } else {
   objktID = queryString.replace("?", "");
 }
@@ -117,11 +117,11 @@ function showArt(data) {
   artEl.innerHTML = `
 <div class="showcase">
         <div class="artist">
-          <a href="https://www.hicetnunc.art/${data.creator.name}/creations">${
+          <a href="https://www.teia.art/${data.creator.name}/creations">${
     data.creator.name
   }</a>
           <h2>
-            <a href="https://www.hicetnunc.art/objkt/${data.id}">OBJKT#${
+            <a href="https://www.teia.art/objkt/${data.id}">OBJKT#${
     data.id
   }</a>
           </h2>
@@ -149,7 +149,7 @@ function showArt(data) {
         </div>
         <div class="OBJKT">
           <h2>${data.title}</h2>
-          <a href="https://www.hicetnunc.art/objkt/${data.id}">Buy on HEN</a>
+          <a href="https://www.teia.art/objkt/${data.id}">Buy on teia</a>
         </div>
         <div class="edition">
           ${data.supply} Editions  -  ${data.mime}
